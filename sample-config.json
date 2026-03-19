@@ -1,0 +1,18 @@
+{
+  "config": {
+    "network": {
+      "interface": {
+        "name": "ethernet1/1",
+        "zone": "untrust"
+      }
+    },
+    "security": {
+      "rule": {
+        "name": "allow-all",
+        "source": "any",
+        "destination": "any",
+        "action": "allow"
+      }
+    }
+  }
+}

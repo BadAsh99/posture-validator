@@ -1,0 +1,16 @@
+<config>
+  <network>
+    <interface>
+      <name>ethernet1/1</name>
+      <zone>untrust</zone>
+    </interface>
+  </network>
+  <security>
+    <rule>
+      <name>allow-all</name>
+      <source>any</source>
+      <destination>any</destination>
+      <action>allow</action>
+    </rule>
+  </security>
+</config>
